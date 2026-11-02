@@ -62,17 +62,17 @@
 	</ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.GLEE">
-      <HintPath>..\..\Includes\Microsoft.GLEE.dll</HintPath>
+      <HintPath>..\Includes\Microsoft.GLEE.dll</HintPath>
     </Reference>
     <Reference Include="SourceGrid2">
-      <HintPath>..\..\Includes\SourceGrid2.dll</HintPath>
+      <HintPath>..\Includes\SourceGrid2.dll</HintPath>
     </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="WeifenLuo.WinFormsUI.Docking">
-      <HintPath>..\..\Includes\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+      <HintPath>..\Includes\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
     </Reference>
     <Reference Include="ZedGraph">
-      <HintPath>..\..\Includes\ZedGraph.dll</HintPath>
+      <HintPath>..\Includes\ZedGraph.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -236,6 +236,6 @@
     <PackageIcon>EII_plain_128x128.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\README.md" Pack="True" PackagePath="\" />
-    <None Include="..\..\EII_plain_128x128.png" Pack="True" PackagePath="\" />
+    <None Include="..\README.md" Pack="True" PackagePath="\" />
+    <None Include="..\EII_plain_128x128.png" Pack="True" PackagePath="\" />
   </ItemGroup></Project>
